@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:id="@+id/ivRS"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:layout_weight="1"
+            android:onClick="clickRS"
+            app:srcCompat="@drawable/clickrs" />
+
+        <ImageView
+            android:id="@+id/ivMasjid"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:layout_weight="1"
+            android:onClick="clickMasjid"
+            app:srcCompat="@drawable/clickmasjid" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="213dp">
+
+        <ImageView
+            android:id="@+id/ivatm"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:layout_weight="1"
+            android:onClick="clickATM"
+            app:srcCompat="@drawable/clickatm" />
+
+        <ImageView
+            android:id="@+id/ivbioskop"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_weight="1"
+            android:onClick="clickBioskop"
+            app:srcCompat="@drawable/clickbioskop" />
+    </TableRow>
+
+</LinearLayout>
